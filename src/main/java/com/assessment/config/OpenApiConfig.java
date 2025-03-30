@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 
 import static com.assessment.constants.ApplicationConstants.ASSIGNMENT_SERVICE;
 import static com.assessment.constants.ApplicationConstants.ASSIGNMENT_SERVICE_DESCRIPTION;
+import static com.assessment.constants.ApplicationConstants.ASSIGNMENT_URL;
 import static com.assessment.constants.ApplicationConstants.BEARER;
 import static com.assessment.constants.ApplicationConstants.BEARER_AUTH;
 import static com.assessment.constants.ApplicationConstants.JWT;
@@ -49,7 +50,7 @@ public class OpenApiConfig {
                                 .in(SecurityScheme.In.HEADER)))
                 .info(new Info().version(SERVICE_VERSION).title(ASSIGNMENT_SERVICE)
                         .description(ASSIGNMENT_SERVICE_DESCRIPTION)
-                        .contact(new Contact().name(ASSIGNMENT_SERVICE).url(ASSIGNMENT_SERVICE))
+                        .contact(new Contact().name(ASSIGNMENT_SERVICE).url(ASSIGNMENT_URL))
                 );
     }
 } 

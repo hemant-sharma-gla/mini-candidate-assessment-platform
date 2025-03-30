@@ -98,6 +98,10 @@ public class ApplicationConstants {
      */
     public static final String ASSIGNMENT_SERVICE = "Assignment Service";
     /**
+     * The constant ASSIGNMENT_URL.
+     */
+    public static final String ASSIGNMENT_URL = "https://github.com/hemant-sharma-gla/mini-candidate-assessment-platform";
+    /**
      * The constant SERVICE_BASE_URL.
      */
     public static final String SERVICE_BASE_URL = "http://localhost:8080";
