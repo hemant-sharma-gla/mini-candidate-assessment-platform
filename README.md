@@ -27,8 +27,8 @@ manage questions, while candidates can take assessments and receive immediate fe
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/assessment-system.git
-cd assessment-system
+git clone https://github.com/user-name/mini-candidate-assessment-platform
+cd mini-candidate-assessment-platform
 ```
 
 2. Start the PostgreSQL container using Docker Compose:
