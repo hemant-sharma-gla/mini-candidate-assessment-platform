@@ -50,8 +50,8 @@ The application will start on `http://localhost:8080`
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/assessment-system.git
-cd assessment-system
+git clone https://github.com/user-name/mini-candidate-assessment-platform
+cd mini-candidate-assessment-platform
 ```
 
 2. Start PostgreSQL using Docker:
