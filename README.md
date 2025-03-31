@@ -111,7 +111,7 @@ Default database credentials (when using Docker):
 If running locally without Docker, configure the database connection in `application.properties` or `application.yml`:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5433/candidate_assessment
+spring.datasource.url=jdbc:postgresql://localhost:5432/candidate_assessment
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 ```
